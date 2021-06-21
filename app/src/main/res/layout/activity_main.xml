@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewBienvenido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bienvenido a:"
@@ -26,7 +26,7 @@
         tools:visibility="visible" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonSiguiente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SIGUIENTE"
@@ -57,12 +57,12 @@
         tools:visibility="visible" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextNombreUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,7 +74,7 @@
         tools:visibility="visible" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewNombreApodo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingrese un nombre o apodo"
@@ -90,7 +90,7 @@
         tools:visibility="visible" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textViewContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingrese una contraseña"
@@ -126,7 +126,7 @@
         app:barrierDirection="left" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewLostAllHope"
         android:layout_width="239dp"
         android:layout_height="259dp"
         app:layout_constraintBottom_toBottomOf="parent"

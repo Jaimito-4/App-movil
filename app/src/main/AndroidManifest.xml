@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".NotaUno"/>
+        <activity android:name=".Test"/>
+        <activity android:name=".TestDos"/>
+        <activity android:name=".NotaDos"/>
     </application>
 
 </manifest>
