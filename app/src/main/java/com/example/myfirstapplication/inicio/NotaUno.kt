@@ -2,12 +2,10 @@ package com.example.myfirstapplication
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.view.ContextMenu
-import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myfirstapplication.inicio.Test
 
 class NotaUno: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

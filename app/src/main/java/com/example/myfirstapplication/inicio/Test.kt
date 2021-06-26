@@ -1,4 +1,4 @@
-package com.example.myfirstapplication
+package com.example.myfirstapplication.inicio
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,8 @@ import android.widget.ImageView
 import android.widget.ScrollView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myfirstapplication.R
+import com.example.myfirstapplication.TestDos
 
 class Test: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

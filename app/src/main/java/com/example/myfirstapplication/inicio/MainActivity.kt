@@ -3,12 +3,12 @@ package com.example.myfirstapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageView
-import android.widget.TextView
+import android.widget.*
+import com.example.myfirstapplication.inicio.Usuario as Usuario1
 
-class MainActivity : AppCompatActivity() {
+abstract class MainActivity : AppCompatActivity() {
+
+    val databaseController = DatabaseController(this)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,9 +23,13 @@ class MainActivity : AppCompatActivity() {
         val buttonSiguiente = findViewById<Button>(R.id.buttonSiguiente)
 
         buttonSiguiente.setOnClickListener {
+            Toast.makeText(this, "REGISTRADO", Toast.LENGTH_SHORT).show()
             val intent = Intent(this, NotaUno::class.java)
             startActivity(intent)
+            databaseController.agregarUsuario()
+            }
         }
-
     }
+
+private fun DatabaseController.agregarUsuario() {
 }

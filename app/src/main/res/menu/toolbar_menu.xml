@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_Perfil"
+        android:icon="@drawable/icons8_usuario_24"
+        android:title="Perfil"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/menu_item_Diario"
+        android:icon="@drawable/icons8_libro_abierto_64"
+        android:title="Diario"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/menu_item_Calendario"
+        android:icon="@drawable/icons8_calendario_64"
+        android:title="Calendario"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/menu_item_Contactos"
+        android:icon="@drawable/icons8_contactos_64"
+        android:title="Contactos"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/menu_item_Configuracion"
+        android:icon="@drawable/icons8_ajustes_64"
+        android:title="Configuracion"
+        app:showAsAction="withText" />
+</menu>
